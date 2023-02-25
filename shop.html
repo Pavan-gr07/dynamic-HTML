@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="shop.css" />
-    <title>DOM</title>
-  </head>
-  <body>
-    <h2 id="clothingHeading">Clothing for Men and Women</h2>
-    <div id="clothingDiv"></div>
-    <h2 id="accessoriesHeading">Accessories for Men and Women</h2>
-    <div id="accessoriesDiv"></div>
-    <script src="shope.js"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping-website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/021c70449c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@200;300;600&family=Open+Sans&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="icon">
+            <h1><span>SHOP</span> LANE</h1>
+        </div>
+        <div class="links">
+            <a href="#">HOME</a>
+            <a href="#">CLOTHING</a>
+            <a href="#">ACCESSORIES</a>
+        </div>
+        <div class="cart">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </header>
+    <main>
+      <h2> Clothing for Men and Women</h2>
+      
+        <div class="clothsConatiner" id="clothsConatiner">
+        </div>
+    
+        <h2> Accessories for Men and Women</h2>
+        
+        
+          <div class="clothsConatiner" id="AccessoriesConatiner">
+            </div>
+        
+        </div>
+    </main>
+    <script src="script.js"></script>
+    </body>
